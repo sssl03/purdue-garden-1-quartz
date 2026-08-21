@@ -1,12 +1,11 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: my garden
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
-  locale: en-US
+  analytics: null
+  locale: en-GB
   baseUrl: sssl03.github.io/purdue-seedgrant-garden-quartz
   ignorePatterns:
     - private
