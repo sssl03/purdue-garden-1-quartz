@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: sssl03/purdue-seedgrant-garden-obsidian
-          path: content
+          path: try-github-actions-workflows
           token: ${{ secrets.TOKEN_FOR_OBSIDIAN_REPO }}
       - uses: actions/setup-node@v6
         with:
