@@ -1,9 +1,8 @@
 name: Deploy to GitHub Pages when Quartz is edited
  
 on:
-  push:
-    branches:
-      - try-github-actions-workflows
+  repository_dispatch:
+    types: [obsidian-content-updated]
  
 permissions:
   contents: read
