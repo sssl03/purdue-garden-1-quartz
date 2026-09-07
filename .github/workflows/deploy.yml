@@ -1,9 +1,9 @@
-name: Deploy to GitHub Pages when Quartz is edited
+name: Deploy to GitHub Pages (on Obsidian trigger)
  
 on:
   push:
-    branches:
-      - custom-quartz
+    branches: [github_workflow-try_2]
+  workflow_dispatch:
  
 permissions:
   contents: read
